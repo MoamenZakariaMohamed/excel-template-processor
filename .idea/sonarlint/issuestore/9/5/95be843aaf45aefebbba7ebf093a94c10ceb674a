@@ -1,0 +1,116 @@
+
+f
+java:S1192®"HDefine a constant instead of duplicating this literal "Charges" 3 times.(‚î»¿8œÔÂ1
+o
+java:S1854Ø"QRemove this useless assignment to local variable "chargeTwoAmountTypeValidation".(–±–é8üà³Â1
+i
+java:S1854×"KRemove this useless assignment to local variable "chargeTwoNameValidation".(Ìõ†ô8ıà³Â1
+t
+java:S1854Ô"QRemove this useless assignment to local variable "chargeOneAmountTypeValidation".(ïæ»¶ûÿÿÿÿ8ıà³Â1
+n
+java:S1854Ó"KRemove this useless assignment to local variable "chargeOneNameValidation".(ÂÏ¢èşÿÿÿÿ8ıà³Â1
+r
+java:S1854Ï"TRemove this useless assignment to local variable "graceOnInterestChargedValidation".(Â¨µõ8ıà³Â1
+r
+java:S1854Í"TRemove this useless assignment to local variable "graceOnInterestPaymentValidation".(ü ƒ„8ıà³Â1
+s
+java:S1854Ë"URemove this useless assignment to local variable "graceOnPrincipalPaymentValidation".(µãíÍ8ıà³Â1
+l
+java:S1854Ê"NRemove this useless assignment to local variable "arrearsToleranceValidation".(õ¸ÅÅ8ıà³Â1
+i
+java:S1854É"FRemove this useless assignment to local variable "interestValidation".(Í™ĞÌüÿÿÿÿ8ıà³Â1
+o
+java:S1854È"LRemove this useless assignment to local variable "noOfRepaymentsValidation".(›Š×Ùùÿÿÿÿ8ıà³Â1
+i
+java:S1854Ç"FRemove this useless assignment to local variable "loanTermValidation".(‡Œ¥Çûÿÿÿÿ8ıà³Â1
+e
+java:S1854Æ"GRemove this useless assignment to local variable "principalValidation".(â§ı8ıà³Â1
+n
+java:S1854Ä"KRemove this useless assignment to local variable "repaymentTypeValidation".(„œÉîıÿÿÿÿ8ıà³Â1
+g
+java:S1854Ã"IRemove this useless assignment to local variable "paymentTypeValidation".(Â‰§Í8Ğ¶Â1
+m
+java:S1854Â"ORemove this useless assignment to local variable "repaymentStrategyValidation".(ÀËë©8ıà³Â1
+u
+java:S1854À"WRemove this useless assignment to local variable "interestCalculationPeriodValidation".(Ÿ³ŒĞ8ıà³Â1
+o
+java:S1854¿"LRemove this useless assignment to local variable "interestMethodValidation".(Áòšéşÿÿÿÿ8ıà³Â1
+m
+java:S1854¾"JRemove this useless assignment to local variable "amortizationValidation".(ìäüäüÿÿÿÿ8ıà³Â1
+r
+java:S1854½"ORemove this useless assignment to local variable "loanTermFrequencyValidation".(‹“çùÿÿÿÿ8ıà³Â1
+j
+java:S1854¼"MRemove this useless assignment to local variable "repaidFrequencyValidation".(ëùÊS8ıà³Â1
+i
+java:S1854»"FRemove this useless assignment to local variable "fundNameValidation".(––³øÿÿÿÿ8Ñ¶Â1
+l
+java:S1854¹"IRemove this useless assignment to local variable "productNameValidation".(³®£Íøÿÿÿÿ8ğˆ¯Â1
+b
+java:S1854¶"DRemove this useless assignment to local variable "officeValidation".(¦Í8ş‚¦Â1
+l
+java:S1854p"JRemove this useless assignment to local variable "lastrepaymentDateRange".(‚Ÿ¤˜ûÿÿÿÿ8‚ìÔÂ1
+c
+java:S1854j"FRemove this useless assignment to local variable "disbursedDateRange".(Û¾œç8‚ìÔÂ1
+b
+java:S1854h"ERemove this useless assignment to local variable "approvedDateRange".(«Óó£8‚ìÔÂ1
+h
+java:S1854F"FRemove this useless assignment to local variable "submittedDateRange".(Ü‰±Ğüÿÿÿÿ8‚ìÔÂ1
+Y
+java:S1481F"7Remove this unused "submittedDateRange" local variable.(Ü‰±Ğüÿÿÿÿ8„ìÔÂ1
+S
+java:S1481h"6Remove this unused "approvedDateRange" local variable.(«Óó£8…ìÔÂ1
+T
+java:S1481j"7Remove this unused "disbursedDateRange" local variable.(Û¾œç8†ìÔÂ1
+]
+java:S1481p";Remove this unused "lastrepaymentDateRange" local variable.(‚Ÿ¤˜ûÿÿÿÿ8†ìÔÂ1
+S
+java:S1481¶"5Remove this unused "officeValidation" local variable.(¦Í8‚ƒ¦Â1
+]
+java:S1481¹":Remove this unused "productNameValidation" local variable.(³®£Íøÿÿÿÿ8öˆ¯Â1
+Z
+java:S1481»"7Remove this unused "fundNameValidation" local variable.(––³øÿÿÿÿ8Ø¶Â1
+[
+java:S1481¼">Remove this unused "repaidFrequencyValidation" local variable.(ëùÊS8…á³Â1
+c
+java:S1481½"@Remove this unused "loanTermFrequencyValidation" local variable.(‹“çùÿÿÿÿ8…á³Â1
+^
+java:S1481¾";Remove this unused "amortizationValidation" local variable.(ìäüäüÿÿÿÿ8…á³Â1
+`
+java:S1481¿"=Remove this unused "interestMethodValidation" local variable.(Áòšéşÿÿÿÿ8…á³Â1
+f
+java:S1481À"HRemove this unused "interestCalculationPeriodValidation" local variable.(Ÿ³ŒĞ8…á³Â1
+^
+java:S1481Â"@Remove this unused "repaymentStrategyValidation" local variable.(ÀËë©8…á³Â1
+X
+java:S1481Ã":Remove this unused "paymentTypeValidation" local variable.(Â‰§Í8Ù¶Â1
+_
+java:S1481Ä"<Remove this unused "repaymentTypeValidation" local variable.(„œÉîıÿÿÿÿ8†á³Â1
+V
+java:S1481Æ"8Remove this unused "principalValidation" local variable.(â§ı8†á³Â1
+Z
+java:S1481Ç"7Remove this unused "loanTermValidation" local variable.(‡Œ¥Çûÿÿÿÿ8†á³Â1
+`
+java:S1481È"=Remove this unused "noOfRepaymentsValidation" local variable.(›Š×Ùùÿÿÿÿ8†á³Â1
+Z
+java:S1481É"7Remove this unused "interestValidation" local variable.(Í™ĞÌüÿÿÿÿ8†á³Â1
+]
+java:S1481Ê"?Remove this unused "arrearsToleranceValidation" local variable.(õ¸ÅÅ8†á³Â1
+d
+java:S1481Ë"FRemove this unused "graceOnPrincipalPaymentValidation" local variable.(µãíÍ8†á³Â1
+c
+java:S1481Í"ERemove this unused "graceOnInterestPaymentValidation" local variable.(ü ƒ„8†á³Â1
+c
+java:S1481Ï"ERemove this unused "graceOnInterestChargedValidation" local variable.(Â¨µõ8†á³Â1
+_
+java:S1481Ó"<Remove this unused "chargeOneNameValidation" local variable.(ÂÏ¢èşÿÿÿÿ8‡á³Â1
+e
+java:S1481Ô"BRemove this unused "chargeOneAmountTypeValidation" local variable.(ïæ»¶ûÿÿÿÿ8‡á³Â1
+Z
+java:S1481×"<Remove this unused "chargeTwoNameValidation" local variable.(Ìõ†ô8‡á³Â1
+`
+java:S1481Ø"BRemove this unused "chargeTwoAmountTypeValidation" local variable.(–±–é8‡á³Â1
+Y	java:S125İ"<This block of commented-out lines of code should be removed.(áÕß˜8„ƒ¦Â1
+^	java:S125à"<This block of commented-out lines of code should be removed.(À¬óòüÿÿÿÿ8÷ˆ¯Â1
+Y	java:S125â"<This block of commented-out lines of code should be removed.(Á¼Ä€8Û¶Â1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Œƒ¦Â1

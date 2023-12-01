@@ -1,0 +1,6 @@
+
+k	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü¼ÒÁûÿÿÿÿ
+g
+java:S1854X"ERemove this useless assignment to local variable "OpenedOndateRange".(Ü¼ÒÁûÿÿÿÿ8ÆÙÂ1
+X
+java:S1481X"6Remove this unused "OpenedOndateRange" local variable.(Ü¼ÒÁûÿÿÿÿ8ÆÙÂ1
