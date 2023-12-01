@@ -91,6 +91,7 @@ public class ExcelProcessor implements ExcelProcessService {
             }
         }
         saveInBulk(entities);
+        serviceTypeMap.clear();
     }
 
     private void saveInBulk(List<Services> entities) {

@@ -2,6 +2,8 @@ package com.example.proccess.populator.service;
 
 import com.example.proccess.upload.domain.ServiceType;
 import com.example.proccess.populator.constants.TemplatePopulateImportConstants;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -14,22 +16,22 @@ public class ServiceTypeSheetPopulator extends AbstractWorkbookPopulator {
     private static final int ID_COL = 0;
     private static final int Service_NAME_COL = 1;
 
-    public ServiceTypeSheetPopulator(final List<ServiceType> offices) {
-        this.serviceTypeList = offices;
+    public ServiceTypeSheetPopulator(final List<ServiceType> serviceTypes) {
+        this.serviceTypeList = serviceTypes;
     }
 
     @Override
     public void populate(final Workbook workbook) {
         int rowIndex = 1;
-        Sheet officeSheet = workbook.createSheet(TemplatePopulateImportConstants.SERVICE_TYPE_NAME);
-        setLayout(officeSheet);
-        populateServiceType(officeSheet, rowIndex);
-        officeSheet.protectSheet("");
+        Sheet serviceTypeSheet = workbook.createSheet(TemplatePopulateImportConstants.SERVICE_TYPE_NAME);
+        setLayout(serviceTypeSheet);
+        populateServiceType(serviceTypeSheet, rowIndex);
+        serviceTypeSheet.protectSheet("");
     }
 
-    private void populateServiceType(Sheet officeSheet, int rowIndex) {
+    private void populateServiceType(Sheet serviceTypeSheet, int rowIndex) {
         for (ServiceType serviceType : serviceTypeList) {
-            Row row = officeSheet.createRow(rowIndex);
+            Row row = serviceTypeSheet.createRow(rowIndex);
             writeLong(ID_COL, row, serviceType.getId());
             writeString(Service_NAME_COL, row, serviceType.getName().trim());
             rowIndex++;
@@ -47,5 +49,10 @@ public class ServiceTypeSheetPopulator extends AbstractWorkbookPopulator {
 
     public List<ServiceType> getServiceTypeList() {
         return serviceTypeList;
+    }
+
+    public void writeString(int columnIndex, Row row, String value) {
+        Cell cell = row.createCell(columnIndex, CellType.STRING);
+        cell.setCellValue(value);
     }
 }

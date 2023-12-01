@@ -1,7 +1,0 @@
-
-}
-java:S1488L"bImmediately return this expression instead of assigning it to the temporary variable "entityType".(¦Šîªùÿÿÿÿ
-x
-java:S1488Q"bImmediately return this expression instead of assigning it to the temporary variable "entityType".(´ß¸
-T
-java:S1858W">"name" returns a string, there's no need to call "toString()".(ØúŒ÷

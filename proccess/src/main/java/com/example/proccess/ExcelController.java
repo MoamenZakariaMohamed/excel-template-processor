@@ -29,13 +29,18 @@ public class ExcelController {
 
     @GetMapping(value = "/downloadtemplate")
     public ResponseEntity<byte[]> getClientTemplate(@RequestParam("entityType")  String entityType, @RequestParam("officeId") final Long officeId) {
-        byte[] excelBytes = bulkImportWorkbookPopulatorService.getTemplate(entityType, officeId);
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.valueOf("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"));
-        headers.setContentDispositionFormData("attachment", "filename.xls");
-        return new ResponseEntity<>(excelBytes, headers, HttpStatus.OK);
+        try {
+            byte[] excelBytes = bulkImportWorkbookPopulatorService.getTemplate(entityType, officeId);
+            HttpHeaders headers = new HttpHeaders();
+            headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
+            headers.setContentDispositionFormData("attachment", "generatedExcel.xlsx");
+
+            return new ResponseEntity<>(excelBytes, headers, HttpStatus.OK);
+        } catch (Exception e) {
+            e.printStackTrace(); // Handle the exception appropriately
+            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        }
+
     }
-
-
 }
 

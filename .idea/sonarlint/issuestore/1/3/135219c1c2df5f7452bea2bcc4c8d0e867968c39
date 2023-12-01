@@ -1,23 +1,0 @@
-
-K
-java:S1172O"/Remove this unused method parameter "officeId".(îÆÑn8ôÑŠ“Â1
-^
-java:S1854T"<Remove this useless assignment to local variable "filename".(ğîİùÿÿÿÿ8õÑŠ“Â1
-O
-java:S1481T"-Remove this unused "filename" local variable.(ğîİùÿÿÿÿ8õÑŠ“Â1
-P
-java:S1172`".Remove this unused method parameter "staffId".(ğ´şÿÿÿÿ8öÑŠ“Â1
-Y
-java:S1172f"<Remove these unused method parameters "officeId", "staffId".(ìõ¸8÷ÑŠ“Â1
-u
-java:S1128"SRemove this unused import 'com.example.proccess.populator.PersonnelSheetPopulator'.(­¨¢ıÿÿÿÿ8øÑŠ“Â1
-p
-java:S1128"NRemove this unused import 'com.example.proccess.populator.RoleSheetPopulator'.(î¿ïãüÿÿÿÿ8øÑŠ“Â1
-o
-java:S1128 "MRemove this unused import 'com.example.proccess.populator.office.OfficeData'.(Ğ„œüÿÿÿÿ8øÑŠ“Â1
-M
-java:S1128-"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8øÑŠ“Â1
-]
-java:S1144K";Remove this unused private "populateOfficeWorkbook" method.(ÏÍÁ¸úÿÿÿÿ8øÑŠ“Â1
-V
-java:S1144f"9Remove this unused private "populateLoanWorkbook" method.(ìõ¸8øÑŠ“Â1
